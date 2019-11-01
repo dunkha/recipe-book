@@ -1,0 +1,49 @@
+#recipe-book-search-container {
+    margin-bottom: 48px;
+    text-align: center;
+}
+  
+#recipe-book-search-container input {
+    width: 400px;
+    height: 24px;
+}
+
+#create-new-recipe {
+    float: left;
+    font-size: 48px;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+
+#create-new-recipe:hover,
+.edit-recipe-icon:hover {
+    color: #51a123;
+}
+
+#recipe-book-search-icon {
+    position: relative;
+    right: 24px;
+    color: #707070;
+}
+
+#recipe-list {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+
+.recipe-list-item {
+    padding: 12px 0px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.edit-recipe-icon {
+    float: right;
+    color: #c2c2c2;
+    cursor: pointer;
+}
+
+a {
+    font-size: 18px;
+}

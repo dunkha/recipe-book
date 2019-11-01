@@ -1,22 +1,60 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-}
-
-.App-header {
-  background-color: #282c34;
+#root {
+  background: #edeae1;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+#recipe-book-container {
+  background: white;
+  min-height: calc(100vh - 96px);
+  width: 50%;
+  margin: auto;
+  padding: 48px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #51a123;
+}
+
+.recipe-book-inline {
+  display: inline-block;
+}
+
+.bolded {
+  font-weight: bold;
+}
+
+button {
+  border-radius: 10px;
+  padding: 8px 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.primary-button {
+  border: none;
+  background: #51a123;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.delete-button {
+  border: none;
+  background: black;
+  color: white;
+}
+
+.secondary-button {
+  border: 1px solid #51a123;
+  color: #51a123;
+  margin-top: 8px;
+}
+
+.small-text-area {
+  width: 400px;
+  height: 120px;
 }

@@ -1,0 +1,50 @@
+.text-input {
+    width: 400px;
+}
+
+.text-input, .small-text-input, .select-input {
+    height: 24px;
+}
+
+.text-area {
+    border: 1px solid lightgray;
+}
+
+#luo-resepti-kuvaus {
+    width: 600px;
+    height: 200px;
+}
+
+.lomake-osio {
+    padding: 12px 0;
+}
+
+.header-col {
+    font-size: 12px;
+}
+
+.ingredient-header-col-1 {
+    width: 410px;
+}
+
+.ingredient-header-col-2 {
+    width: 130px;
+}
+
+.ingredient-row {
+    margin-bottom: 8px;
+}
+
+.ingredient-col {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.lomake-osio-otsikko {
+    margin-bottom: 8px;
+}
+
+.trash-ingredient {
+    cursor: pointer;
+}
